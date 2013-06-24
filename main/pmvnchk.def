@@ -1,0 +1,14 @@
+LIBRARY PMVNCHK INITGLOBAL
+
+DESCRIPTION 'PMVNC Hooks DLL'
+
+DATA SINGLE SHARED
+
+EXPORTS
+  ER_SetHooksProps
+  ER_InputHook
+  ER_SendMsgHook
+  ER_SetHMQ
+  ER_UnSetHMQ
+  ER_mouse_event
+  ER_keyb_event
